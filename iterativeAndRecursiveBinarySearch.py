@@ -19,8 +19,16 @@ def recursive_binary_search(target, dataList, high, low):
         elif dataList[mid] < target:
             return recursive_binary_search(target, dataList, high, mid + 1)
 
+def fillList():
+    dataList = []
+    length = int(intput("Enter length of list: "))
+    for i in range(0 ,length):
+        print("Enter number", i + 1)
+        data = int(input())
+        dataList.append(data)
+    return dataList
 def main():
-    dataList = [1,3,5,9,15,21,29,37,45,56,64]
+    dataList = fillList()
     target = 56
     high = len(dataList) - 1
     low = 0
