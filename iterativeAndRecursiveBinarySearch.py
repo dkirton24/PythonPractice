@@ -29,7 +29,7 @@ def fillList():
     return dataList
 def main():
     dataList = fillList()
-    target = 56
+    target = int(input("Enter the target for search: "))
     high = len(dataList) - 1
     low = 0
 
