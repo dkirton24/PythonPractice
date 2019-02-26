@@ -1,4 +1,4 @@
-#!/usr/bin python
+#!/usr/bin/env python
 
 nList = open("numberList.txt", "w+")
 n = 00000000
