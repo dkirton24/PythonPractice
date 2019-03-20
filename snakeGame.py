@@ -1,6 +1,6 @@
 import turtle
 import random
-
+ 
 class Square:
     def __init__(self):
         self.x = 0
