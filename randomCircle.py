@@ -47,6 +47,7 @@ class Screen:
         self.rCircle.setRandomPosition()
 
         #Set Circle Attributes for this object
+        turtle.speed("fastest")
         turtle.pencolor(self.rCircle.penColor)
         turtle.fillcolor(self.rCircle.fillColor)
         turtle.pensize(self.rCircle.penSize)
